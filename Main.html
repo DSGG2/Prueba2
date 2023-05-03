@@ -5,43 +5,166 @@
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!--Import materialize.css-->
      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link rel="stylesheet" type="text/css" href="css.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>OkamiShop</title> 
 </head>
 <body>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <h1>Menu</h1>
-    <p><a href="#C1">Nose</a></p>
-    <p><a href="#C2">Nose</a></p>
-    <p><a href="#C3">Nose</a></p>
-    <p><a href="#C4">Nose</a></p>
-    <p><a href="#C5">Nose</a></p>
+    <nav>
+        <div class="nav-wrapper blue">
+            <div class="logo">
+                <a href="#"><img src="logo.jpg" alt="Logo">OkamiShop</a>
+          <a href="#" data-target="menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#C1">Figuras</a></li>
+            <li><a href="#C2">Comida</a></li>
+            <li><a href="#C3">Ropa</a></li>
+            <li><a href="#C4">Formulario de compra</a></li>
+            <li><a href="#C5">Acerca de</a></li>
+          </ul>
+        </div>
+      </nav>
 
-    <h2 id="C1">Nose</h2>
-    <p>Aca va sobre la primera opcion </p>
-    <h2 id="C2">Nose</h2>
-    <p>aca va sobre la segunda opcion</p>
-    <h2 id="C3">Nose</h2>
-    <p>aca va sobre la tercera opcion</p>
-    <h2 id="C4">Nose</h2>
-    <p>aca va sobre la cuarta opcion</p>
-    <h2 id="C5">Nose</h2>
-    <p>aca va sobre la quinta opcion</p>
 
-    <h2>Imagen 1</h2>
-    <h2>Imagen 2</h2>
-    <h2>Imagen 3</h2>
-    <h2>Imagen 4</h2>
+    <section class="venta">
+		<div class="orden">
+			<h2 id="C1">Productos en venta</h2>
+            <img src="imagen.jpg" alt="Imagen del producto">
+			<p>Figura de Broly z </p>
+			<p>Precio: $49.990</p>
+			<button>Comprar</button>
 
-    <p>Instagram</p>
-    <p>facebook</p>
-    <p>Whatsapp</p>
+            <img src="imagen2.jpg" alt="Imagen del producto">
+			<p>Figura de Luffy</p>
+			<p>Precio: $39.990</p>
+			<button>Comprar</button>
 
-    <video width="400" controls>
-        <source src="Anuncio Tienda Anime Online Okami Collectibles.mp4" type="video/mp4">
+            <img src="imagen3.jpg" alt="Imagen del producto">
+			<p>Figura de Naruto</p>
+			<p>Precio: $49.990</p>
+			<button>Comprar</button>
+
+            <img src="imagen4.webp" alt="Imagen del producto">
+			<p>Figura de Tanjiro </p>
+			<p>Precio: $49.990</p>
+			<button>Comprar</button>
+
+		</div>
+	</section>
     
+
+
+
+    <section class="venta">
+		<div class="orden">
+			<h2 id="C2">Productos en venta</h2>
+            <img src="imagen5.jpeg" alt="Imagen del producto">
+			<p>Sopa Instantanea </p>
+			<p>Precio: $4.990</p>
+			<button>Comprar</button>
+
+            <img src="imagen6.jpg" alt="Imagen del producto">
+			<p>Pocky</p>
+			<p>Precio: $2.990</p>
+			<button>Comprar</button>
+
+            <img src="imagen7.jpg" alt="Imagen del producto">
+			<p>Sake</p>
+			<p>Precio: $7.990</p>
+			<button>Comprar</button>
+
+            <img src="imagen8.jpg" alt="Imagen del producto">
+			<p>Te Helado Ooi Ocha </p>
+			<p>Precio: $1.990</p>
+			<button>Comprar</button>
+
+		</div>
+	</section>
+
+
+    <section class="venta">
+		<div class="orden">
+			<h2 id="C3">Productos en venta</h2>
+            <img src="imagen9.png" alt="Imagen del producto">
+			<p>Polera de Broly Todas las tallas</p>
+			<p>Precio: $9.990</p>
+			<button>Comprar</button>
+
+            <img src="imagen10.jpg" alt="Imagen del producto">
+			<p>Poleren de Luffy solo talla XL</p>
+			<p>Precio: $9.990</p>
+			<button>Comprar</button>
+
+            <img src="imagen11.jpg" alt="Imagen del producto">
+			<p>Polereon de Akatsuki Todas las tallas</p>
+			<p>Precio: $9.990</p>
+			<button>Comprar</button>
+
+            <img src="imagen12.jpg" alt="Imagen del producto">
+			<p>Polera de Tanjiro solo talla XL </p>
+			<p>Precio: $9.990</p>
+			<button>Comprar</button>
+
+		</div>
+	</section>
+
+    <h1 id="C4">Formulario de compra</h1>
+	<div class="input-field">
+        <i class="material-icons prefix">account_circle</i>
+        <input id="nombre" type="text" class="validate">
+        <label for="nombre">Nombre</label>
+        <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="numero" type="number" class="validate">
+            <label for="numero">Numero</label>
+            <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="email" type="text" class="validate">
+                <label for="email">Email</label>
+                <div class="input-field">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="cosa" type="text" class="validate">
+                    <label for="cosa">Lo que desea comprar</label>
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="direccion" type="text" class="validate">
+                        <label for="direccion">Direccion</label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+		<button class="btn blue">Enviar</button>
+	</form> 
+    
+
+
+
+    <div class="video">
+        <video src="Anuncio Tienda Anime Online Okami Collectibles.mp4" controls></video>
+      </div>
+
+
+
+
+
+ <h2 id="C5">Acerca de Nuestra Tienda</h2>
+    <p>Nuestra tienda es una de las mejor en el pais para comprar en la venta de productos japones </p>
+    <p>Ya que nuestros productos aparte de ser de gran calidad son importados directamente desde japon</p>
+
+
+    <div class="redes-sociales">
+        <ul>
+          <li><a href="https://es-la.facebook.com/Okami/"><i class="fab fa-facebook"></i>Facebook</a></li>
+          <li><a href="https://twitter.com/OkamiOfficial"><i class="fab fa-twitter"></i>Twitter</a></li>
+          <li><a href="https://www.instagram.com/ookami.official/"><i class="fab fa-instagram"></i>Instagram</a></li>
+          <li><a href="https://www.youtube.com/@okamicollectibles7322/about"><i class="fab fa-youtube"></i>Youtube</a></li>
+        </ul>
+      </div>
 </body>
 </html>
