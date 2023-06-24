@@ -1,4 +1,35 @@
 
+input:invalid {
+  border-color: red;
+}
+
+body {
+font-size: 16px;
+color: #333;
+background-color: #fff;
+}
+
+.content {
+margin: 20px;
+}
+
+button {
+margin-right: 10px;
+}
+
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+color: #333;
+background-color: #fff;
+transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+color: #fff;
+background-color: #333;
+}
+
 /* Estilos para la sección de venta */
 .venta {
     display: flex;
